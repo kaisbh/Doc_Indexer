@@ -12,9 +12,25 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="D:/GitHub/Doc_Indexer/Doc_Indexer/lib/lucene-analyzers-common-6.6.0.jar"/>
-	<classpathentry kind="lib" path="D:/GitHub/Doc_Indexer/Doc_Indexer/lib/lucene-core-6.6.0.jar"/>
-	<classpathentry kind="lib" path="D:/GitHub/Doc_Indexer/Doc_Indexer/lib/lucene-demo-6.6.0.jar"/>
-	<classpathentry kind="lib" path="D:/GitHub/Doc_Indexer/Doc_Indexer/lib/lucene-queryparser-6.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/Doc_Indexer/Doc_Indexer/lib/lucene-analyzers-common-6.6.0.jar" sourcepath="lib/lucene-6.6.0-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Doc_Indexer/lib/lucene-6.0.0-docs.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/GitHub/Doc_Indexer/Doc_Indexer/lib/lucene-core-6.6.0.jar" sourcepath="lib/lucene-6.6.0-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Doc_Indexer/lib/lucene-6.0.0-docs.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/GitHub/Doc_Indexer/Doc_Indexer/lib/lucene-demo-6.6.0.jar" sourcepath="lib/lucene-6.6.0-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Doc_Indexer/lib/lucene-6.0.0-docs.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/GitHub/Doc_Indexer/Doc_Indexer/lib/lucene-queryparser-6.6.0.jar" sourcepath="lib/lucene-6.6.0-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Doc_Indexer/lib/lucene-6.0.0-docs.zip!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
